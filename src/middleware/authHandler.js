@@ -21,7 +21,7 @@ const authenticate = async (req, res, next) => {
         throw createAppError('User not found.', 401);
     }
 
-    req.user = { id: user._id, isAdmin: user.isAdmin };
+    req.user = { id: user._id.toString(), isAdmin: user.isAdmin };
     next();
 };
 
