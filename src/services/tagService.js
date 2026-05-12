@@ -1,6 +1,6 @@
-import Tag from '../models/Tag.js';
-import Question from '../models/Question.js';
-import Answer from '../models/Answer.js';
+import Tag from '../models/tag.js';
+import Question from '../models/question.js';
+import Answer from '../models/answer.js';
 import { createAppError } from '../utils/createAppError.js';
 
 export const getAllTagsService = async () => {

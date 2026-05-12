@@ -1,6 +1,6 @@
-import Answer from "../models/Answer.js";
-import Question from "../models/Question.js";
-import User from "../models/User.js";
+import Answer from "../models/answer.js";
+import Question from "../models/question.js";
+import User from "../models/user.js";
 import { createAppError } from "../utils/createAppError.js";
 import { handleVote } from "./voteService.js";
 

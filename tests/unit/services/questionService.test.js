@@ -1,8 +1,8 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import * as questionService from "../../../src/services/questionService.js";
-import Question from "../../../src/models/Question.js";
-import Answer from "../../../src/models/Answer.js";
-import Tag from "../../../src/models/Tag.js";
+import Question from "../../../src/models/question.js";
+import Answer from "../../../src/models/answer.js";
+import Tag from "../../../src/models/tag.js";
 import { createAppError } from "../../../src/utils/createAppError.js";
 
 vi.mock("../../../src/models/Question.js");

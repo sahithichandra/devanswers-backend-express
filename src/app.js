@@ -4,10 +4,10 @@ import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 
 // Import all the models.
-import Question from "./models/Question.js";
-import Answer from "./models/Answer.js";
-import User from "./models/User.js";
-import Tag from "./models/Tag.js";
+import Question from "./models/question.js";
+import Answer from "./models/answer.js";
+import User from "./models/user.js";
+import Tag from "./models/tag.js";
 
 import router from './routes/index.js';
 import errorhandler from './middleware/errorHandler.js';

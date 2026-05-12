@@ -4,10 +4,10 @@ import request from "supertest";
 import app from "../../src/app.js";
 import mongoose from "mongoose";
 import { connectToDB, disconnectFromDB } from "../../db.js";
-import Question from "../../src/models/Question.js";
-import User from "../../src/models/User.js";
-import Tag from "../../src/models/Tag.js";
-import Answer from "../../src/models/Answer.js";
+import Question from "../../src/models/question.js";
+import User from "../../src/models/user.js";
+import Tag from "../../src/models/tag.js";
+import Answer from "../../src/models/answer.js";
 
 let isMongoDBAvailable = false;
 let token, userId, questionId;
